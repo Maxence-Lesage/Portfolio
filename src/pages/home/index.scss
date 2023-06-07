@@ -1,0 +1,13 @@
+@import "../../utils/variables";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-family-default;
+    background-color: $colors-secondary;
+    max-width: 1440px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}

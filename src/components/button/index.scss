@@ -1,0 +1,18 @@
+@import "../../utils/variables";
+
+.button {
+    background-color: $colors-primary-button;
+    color: $colors-secondary;
+    height: 31px;
+    width: 85px;
+    border-color: transparent;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 3px;
+    transition: .5s;
+    font-size: 17px;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 6px;
+}
