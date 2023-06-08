@@ -1,0 +1,20 @@
+@import "../../utils/variables";
+
+.hero_section {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: $colors-primary;
+}
+
+.hero__left {
+    height: 100%;
+    width: 50%;
+}
+
+.hero__right {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    z-index: 2;
+}
