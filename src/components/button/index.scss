@@ -1,18 +1,40 @@
 @import "../../utils/variables";
 
 .button {
+    border-color: transparent;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+
+.btn_primary {
     background-color: $colors-primary-button;
     color: $colors-secondary;
-    height: 31px;
-    width: 85px;
-    border-color: transparent;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 3px;
-    transition: .5s;
-    font-size: 17px;
 }
+
+.btn_secondary {
+    background-color: $colors-secondary-button;
+    color: $colors-primary;
+}
+
+.btn_stretch {
+    padding: 7px 20px;
+}
+
+/*---------------------------------*/
 
 .button:hover {
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 6px;
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
+}
+
+.btn_stretch:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.button:active {
+    transform: scale(.8);
 }

@@ -3,16 +3,25 @@
 .navbar_circle {
     background: $colors-accent;
     background-size: cover;
-    height: 45px;
-    width: 45px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, .6) 1px 1px 8px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.navbar_circle_icon {
-    height: 60%;
-    color: rgba(0, 0, 0, 0.8);
+.navbar_circle img {
+    height: 100%;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

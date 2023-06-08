@@ -25,7 +25,7 @@ function Navbar() {
                         <p>Compétences</p>
                     </a>
                     <div className="separator" />
-                    <Button value="Contact" />
+                    <Button value="Contact" type="btn_secondary" stretch="btn_stretch" />
                 </div>
             </div>
 

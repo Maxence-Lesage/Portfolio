@@ -1,11 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
+import image from "../../images/logo2.png"
 
 function NavCircle() {
     return (
         <div className="navbar_circle">
-            <FontAwesomeIcon className="navbar_circle_icon" icon={faCode} />
+            <img src={image} alt="" />
         </div>
     );
 }

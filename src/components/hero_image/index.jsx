@@ -1,10 +1,7 @@
 import "./index.scss";
-import image from "../../images/hero-placeholder.png";
+import image from "../../images/hero-placeholder.webp";
 
 function HeroImage() {
-
-    //30% 0, 91% 6%, 100% 35%, 100% 94%, 68% 81%, 40% 91%,
-    //11 % 80 %, 21 % 56 %, 5 % 34 %, 12 % 14 %
     return (
         <svg className="shape" viewBox="0 0 200 200">
             <mask id="maskShape">
