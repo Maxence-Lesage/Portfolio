@@ -17,8 +17,8 @@ function Navbar() {
 
             <div className="navbar__wrapper_right">
                 <div className="navbar_links">
-                    <a className="heading" href="#creations">
-                        <p>Créations</p>
+                    <a className="heading" href="#projects">
+                        <p>Projets</p>
                     </a>
                     <div className="separator" />
                     <a className="heading" href="#competences">

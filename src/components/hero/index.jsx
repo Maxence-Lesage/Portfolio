@@ -13,7 +13,7 @@ function Hero() {
                 </header>
                 <div className="hero_links">
                     <Button key="btn-contact" value="Contact" type="btn_primary" />
-                    <Button key="btn-projects" value="Mes Projets" type="btn_secondary" />
+                    <a href="#projects"><Button key="btn-projects" value="Mes Projets" type="btn_secondary" /></a>
                 </div>
                 <div className="hero_pattern">
 

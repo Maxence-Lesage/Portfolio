@@ -1,4 +1,7 @@
+@import "../../utils/variables";
+
 .projects {
+    position: relative;
     display: flex;
     justify-content: space-around;
     padding: 100px 0px;
@@ -10,4 +13,17 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 20%));
     justify-content: center;
     gap: 30px;
+}
+
+.section_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: $font-family-headers;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: -10px;
+    border-left: 2px solid rgba(0, 0, 0, 0.151);
 }

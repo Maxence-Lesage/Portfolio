@@ -10,10 +10,11 @@ function Projects() {
     });
 
     return (
-        <section className="projects">
+        <section id="projects" className="projects">
             <div className="projects_list">
                 {projects_list}
             </div>
+            <h2 className="section_header">Projets</h2>
         </section>
     );
 }
