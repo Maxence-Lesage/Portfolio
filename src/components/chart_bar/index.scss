@@ -1,0 +1,26 @@
+@import "../../utils/variables";
+
+.chart_bar {
+    display: flex;
+    gap: 6px;
+}
+
+#chart_bar_svg {
+    width: 500px;
+    height: 19px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
+}
+
+.chart_empty {
+    fill: $colors-secondary-button;
+}
+
+.chart_filled {
+    fill: $colors-primary-button;
+}
+
+.percentage {
+    font-weight: 500;
+    margin-left: 3px;
+    margin-top: 2px;
+}

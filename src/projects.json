@@ -2,8 +2,8 @@
     "projects": [
         {
             "id": "1",
-            "name": "Musique",
-            "desc": "lorem ipsum dolor sit amet",
+            "name": "Ethereal Vibes",
+            "desc": "Stream and listen to music with our collection of the best sounds",
             "tag": [
                 "React",
                 "Redux",
@@ -14,8 +14,8 @@
         },
         {
             "id": "2",
-            "name": "Layton",
-            "desc": "lorem ipsum dolor sit amet",
+            "name": "Layton's Enigma",
+            "desc": "Solve Professor Layton's ultimate riddle",
             "tag": [
                 "React",
                 "Typescript",
@@ -26,8 +26,8 @@
         },
         {
             "id": "3",
-            "name": "Fukuoka",
-            "desc": "lorem ipsum dolor sit amet amet amet amet",
+            "name": "Fukuoka Traveller",
+            "desc": "The guide to not miss anything during your next stay in Fukuoka",
             "tag": [
                 "Next",
                 "Redux",
@@ -39,7 +39,7 @@
         {
             "id": "4",
             "name": "Space Bank",
-            "desc": "lorem ipsum dolor sit amet",
+            "desc": "The bank for a leisurely journey through the Milky Way",
             "tag": [
                 "Next",
                 "Redux",

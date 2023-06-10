@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    padding: 100px 0px;
+    padding: 150px 0px 100px 0px;
 }
 
 .projects_list {
@@ -17,7 +17,7 @@
 
 .section_header {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
     font-size: 32px;
     font-weight: 600;
@@ -25,5 +25,5 @@
     height: 100%;
     padding-left: 10px;
     margin-left: -10px;
-    border-left: 2px solid rgba(0, 0, 0, 0.151);
+    pointer-events: none;
 }

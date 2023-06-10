@@ -1,7 +1,8 @@
 import "./index.scss";
 import Navbar from "../../components/navbar/index";
-import Hero from "../../components/hero/index";
-import Projects from "../../components/projects";
+import Hero from "../../sections/hero/index";
+import Projects from "../../sections/projects";
+import Skills from "../../sections/skills";
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
             <Navbar />
             <Hero />
             <Projects />
+            <Skills />
         </>
     );
 }

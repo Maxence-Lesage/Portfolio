@@ -21,7 +21,7 @@ function Navbar() {
                         <p>Projets</p>
                     </a>
                     <div className="separator" />
-                    <a className="heading" href="#competences">
+                    <a className="heading" href="#skills">
                         <p>Compétences</p>
                     </a>
                     <div className="separator" />

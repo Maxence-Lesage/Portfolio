@@ -1,6 +1,6 @@
 import "./index.scss";
-import HeroImage from "../hero_image";
-import Button from "../button/index";
+import HeroImage from "../../components/hero_image";
+import Button from "../../components/button/index";
 
 function Hero() {
     return (

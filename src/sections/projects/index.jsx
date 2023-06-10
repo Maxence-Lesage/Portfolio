@@ -1,4 +1,4 @@
-import ProjectItem from "../project_item";
+import ProjectItem from "../../components/project_item";
 import "./index.scss";
 import { projects_data } from "../../utils/fetch";
 
