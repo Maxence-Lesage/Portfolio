@@ -8,14 +8,13 @@
 }
 
 .hero__left {
-    height: 100%;
     width: 45%;
     color: $colors-primary;
+    padding-bottom: 170px;
 }
 
 .hero__right {
     position: relative;
-    height: 100%;
     width: 50%;
     z-index: 2;
 }

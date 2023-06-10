@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.projects_list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 20%));
+    justify-content: center;
+    gap: 30px;
+}

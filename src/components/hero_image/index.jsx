@@ -9,7 +9,7 @@ function HeroImage() {
                 Q136,152 80,182 Q32,200 32,132
                 Q-20,60 24,23 Q40,10 60,8"></path>
             </mask>
-            <image href={image} x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" mask="url(#maskShape)"></image>
+            <image href={image} className="maskShape_image" x="0" y="0" preserveAspectRatio="xMidYMid slice"></image>
         </svg>
     );
 }

@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Musique",
+            "desc": "lorem ipsum dolor sit amet",
+            "tag": [
+                "React",
+                "Redux",
+                "SEO",
+                "Sass"
+            ],
+            "image": "hero-placeholder.png"
+        },
+        {
+            "id": "2",
+            "name": "Layton",
+            "desc": "lorem ipsum dolor sit amet",
+            "tag": [
+                "React",
+                "Typescript",
+                "Jest",
+                "Sass"
+            ],
+            "image": "hero-placeholder.png"
+        },
+        {
+            "id": "3",
+            "name": "Fukuoka",
+            "desc": "lorem ipsum dolor sit amet amet amet amet",
+            "tag": [
+                "Next",
+                "Redux",
+                "SEO",
+                "Sass"
+            ],
+            "image": "hero-placeholder.png"
+        },
+        {
+            "id": "4",
+            "name": "Space Bank",
+            "desc": "lorem ipsum dolor sit amet",
+            "tag": [
+                "Next",
+                "Redux",
+                "Typescript",
+                "Jest",
+                "Sass"
+            ],
+            "image": "hero-placeholder.png"
+        }
+    ]
+}

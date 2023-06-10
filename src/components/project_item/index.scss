@@ -1,0 +1,33 @@
+@import "../../utils/variables";
+
+.project_item {
+    background-color: $colors-secondary-button;
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.pi_image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.pi_bottom {
+    margin-top: 7px;
+}
+
+.pi_name {
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pi_desc {
+    margin-top: 4px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
