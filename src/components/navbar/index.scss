@@ -1,6 +1,7 @@
 @import "../../utils/variables";
 
 #navbar {
+    position: relative;
     display: flex;
     height: 70px;
     align-items: center;
@@ -40,4 +41,85 @@
     height: 30px;
     width: 2px;
     background-color: black;
+}
+
+/**------------------------------------------------------------**/
+
+.burger_navbar {
+    display: flex !important;
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    background-color: red;
+    top: 0;
+    right: 0;
+    transform: translateY(39.5%);
+    background-color: $colors-secondary-button;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+
+    & .navbar_links {
+        flex-direction: column;
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.navbar_burger {
+    display: none;
+    flex-direction: column;
+    gap: 6.5px;
+
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.navbar_burger_active.navbar_burger {
+    & :nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    & :nth-child(2) {
+        transition: .25s;
+        width: 0;
+    }
+
+    & :nth-child(3) {
+        transform: rotate(-45deg);
+    }
+}
+
+.burger_line {
+    transform-origin: left;
+    width: 25px;
+    height: 2px;
+    background-color: $colors-primary;
+    transition: .5s;
+}
+
+/**------------------------------------------------------------**/
+
+@media screen and (max-width: 1000px) {
+    .navbar__wrapper_right {
+        width: 60%;
+    }
+
+    .separator {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar__wrapper_right {
+        display: none;
+    }
+
+    .navbar_burger {
+        display: flex;
+    }
 }

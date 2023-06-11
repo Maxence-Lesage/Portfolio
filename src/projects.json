@@ -2,44 +2,44 @@
     "projects": [
         {
             "id": "1",
-            "name": "Ethereal Vibes",
-            "desc": "Stream and listen to music with our collection of the best sounds",
+            "name": "projetct 1",
+            "desc": "lorem ipsum dolor sit amet amet",
             "tag": [
                 "React",
                 "Redux",
                 "SEO",
                 "Sass"
             ],
-            "image": "ethereal.jpg"
+            "image": "hero-placeholder.png"
         },
         {
             "id": "2",
-            "name": "Layton's Enigma",
-            "desc": "Solve Professor Layton's ultimate riddle",
+            "name": "projetct 2",
+            "desc": "lorem ipsum dolor sit amet amet",
             "tag": [
                 "React",
                 "Typescript",
                 "Jest",
                 "Sass"
             ],
-            "image": "layton.jpg"
+            "image": "hero-placeholder.png"
         },
         {
             "id": "3",
-            "name": "Fukuoka Traveller",
-            "desc": "The guide to not miss anything during your next stay in Fukuoka",
+            "name": "projetct 3",
+            "desc": "lorem ipsum dolor sit amet amet",
             "tag": [
                 "Next",
                 "Redux",
                 "SEO",
                 "Sass"
             ],
-            "image": "fukuoka_traveller.jpg"
+            "image": "hero-placeholder.png"
         },
         {
             "id": "4",
-            "name": "Space Bank",
-            "desc": "The bank for a leisurely journey through the Milky Way",
+            "name": "projetct 4",
+            "desc": "lorem ipsum dolor sit amet amet",
             "tag": [
                 "Next",
                 "Redux",
@@ -47,7 +47,7 @@
                 "Jest",
                 "Sass"
             ],
-            "image": "space_bank.jpg"
+            "image": "hero-placeholder.png"
         }
     ]
 }
