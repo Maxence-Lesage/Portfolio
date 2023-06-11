@@ -14,9 +14,10 @@
 }
 
 .hero__right {
-    position: relative;
     width: 50%;
-    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .hero_text {
@@ -53,12 +54,14 @@
         flex-direction: column;
     }
 
-    .hero__left {
+    .hero__left,
+    .hero__right {
         width: 100%;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
     }
 
     .hero__right {
-        display: none;
+        justify-content: center;
+        padding-bottom: 50px;
     }
 }
