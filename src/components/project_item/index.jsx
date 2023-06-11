@@ -35,7 +35,12 @@ function ProjectItem(props) {
                 </div>
             </div>
             <div className="card_back">
-                working on
+                <div className="card_back_wrapper">
+                    <p className="pi_desc_full">{desc}</p>
+                    <button className="flip_button" onClick={flipCard}>
+                        <FontAwesomeIcon icon={faRotateLeft} />
+                    </button>
+                </div>
             </div>
         </article>
     );

@@ -10,7 +10,7 @@
                 "SEO",
                 "Sass"
             ],
-            "image": "hero-placeholder.png"
+            "image": "ethereal.jpg"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
                 "Jest",
                 "Sass"
             ],
-            "image": "hero-placeholder.png"
+            "image": "layton.jpg"
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
                 "SEO",
                 "Sass"
             ],
-            "image": "hero-placeholder.png"
+            "image": "fukuoka_traveller.jpg"
         },
         {
             "id": "4",
@@ -47,7 +47,7 @@
                 "Jest",
                 "Sass"
             ],
-            "image": "hero-placeholder.png"
+            "image": "space_bank.jpg"
         }
     ]
 }
