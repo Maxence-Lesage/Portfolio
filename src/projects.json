@@ -2,52 +2,53 @@
     "projects": [
         {
             "id": "1",
-            "name": "projetct 1",
-            "desc": "lorem ipsum dolor sit amet amet",
+            "name": "Kasa",
+            "desc": "Utilisation de composants React réutilisable, usage des paramètres d'URL, dropdowns customs.",
             "tag": [
                 "React",
-                "Redux",
-                "SEO",
-                "Sass"
+                "CSS",
+                "Javascript"
             ],
-            "image": "hero-placeholder.png"
+            "image": "kasa.jpg",
+            "link": "https://github.com/Maxence-Lesage/OC-Projet-8.git"
         },
         {
             "id": "2",
-            "name": "projetct 2",
-            "desc": "lorem ipsum dolor sit amet amet",
+            "name": "Argent Bank",
+            "desc": "Affichage des données du back-end via des calls API, utilisation de Redux pour la gestion des données.",
             "tag": [
                 "React",
-                "Typescript",
-                "Jest",
+                "Javascript",
+                "Redux",
                 "Sass"
             ],
-            "image": "hero-placeholder.png"
+            "image": "argentbank.jpg",
+            "link": "https://github.com/Maxence-Lesage/ArgentBank-website.git"
         },
         {
             "id": "3",
-            "name": "projetct 3",
-            "desc": "lorem ipsum dolor sit amet amet",
+            "name": "724events",
+            "desc": "Couverture du code par des tests unitaires, utilisation de Jest pour les tests, création du cahier des charges",
             "tag": [
-                "Next",
-                "Redux",
-                "SEO",
-                "Sass"
+                "React",
+                "CSS",
+                "Jest",
+                "Javascript"
             ],
-            "image": "hero-placeholder.png"
+            "image": "724events.jpg",
+            "link": "https://github.com/Maxence-Lesage/OC-Projet-10-DEBUG.git"
         },
         {
             "id": "4",
-            "name": "projetct 4",
-            "desc": "lorem ipsum dolor sit amet amet",
+            "name": "Faked Amazon",
+            "desc": "Reproduction de la page d'accueil d'Amazon, utilisation des styled-components d'Emotion, site créé avec Next.js.",
             "tag": [
                 "Next",
-                "Redux",
                 "Typescript",
-                "Jest",
-                "Sass"
+                "CSS"
             ],
-            "image": "hero-placeholder.png"
+            "image": "amazon.jpg",
+            "link": "https://github.com/Maxence-Lesage/faked-amazon.git"
         }
     ]
 }

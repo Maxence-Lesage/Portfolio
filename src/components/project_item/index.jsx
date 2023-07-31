@@ -13,6 +13,7 @@ function ProjectItem(props) {
     const tags = props.data.tag;
     const imageName = props.data.image;
     const image = require(`../../images/${imageName}`);
+    const link = props.data.link;
 
     function flipCard() {
         const card = cardRef.current;
@@ -22,7 +23,9 @@ function ProjectItem(props) {
     return (
         <article className="project_card" ref={cardRef}>
             <div className="card_front">
-                <img className="pi_image" src={image} alt={name} />
+                <a href={link}>
+                    <img className="pi_image" src={image} alt={"Illustration du site : " + name} />
+                </a>
                 <div className="pi_bottom">
                     <h3 className="pi_name">{name}</h3>
                     <p className="pi_desc">{desc}</p>

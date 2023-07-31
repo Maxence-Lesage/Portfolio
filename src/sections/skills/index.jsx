@@ -12,8 +12,10 @@ function Skills() {
                 <Link to={"https://openclassrooms.com/fr/paths/594-integrateur-web"}>
                     <img className="oc_logo" src={oc_logo} alt="Logo d'Openclassrooms" />
                 </Link>
-                <p>Diplomé le __/__/2023</p>
-                <p>Parcours Intégrateur Web</p>
+                <div className="certificate_text">
+                    <p>Diplomé le __/__/2023</p>
+                    <p>Parcours Intégrateur Web</p>
+                </div>
             </div>
             <div className="skills_left">
                 <div className="chart_list_border" />
