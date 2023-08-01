@@ -1,5 +1,5 @@
 import "./index.scss";
-import image from "../../images/hero-placeholder.webp";
+import image from "../../images/photo.png";
 
 function HeroImage() {
     return (
