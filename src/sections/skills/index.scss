@@ -72,24 +72,13 @@
 
 .skills_left {
     display: flex;
-
-    @media screen and (max-width: 666px) {
-        margin-left: -60px;
-        scale: 0.8;
-    }
-
-    @media screen and (max-width: 566px) {
-        align-self: flex-start;
-        margin-left: -55px;
-        scale: 0.8;
-    }
 }
 
 .chart_list_border {
     border-left: 2px solid rgba(0, 0, 0, 0.151);
     padding-right: 25px;
 
-    @media screen and (max-width: 666px) {
+    @media screen and (max-width: 440px) {
         display: none;
     }
 }
