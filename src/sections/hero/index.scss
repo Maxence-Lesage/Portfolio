@@ -28,12 +28,20 @@
 .hero_title {
     font-size: 48px;
     font-weight: 700;
+
+    @media screen and (max-width: 450px) {
+        font-size: 30px;
+    }
 }
 
 .hero_name {
     font-size: 36px;
     font-weight: 600;
     margin-top: 6px;
+
+    @media screen and (max-width: 450px) {
+        font-size: 26px;
+    }
 }
 
 .hero_catch {
@@ -41,12 +49,18 @@
     font-weight: 400;
     margin-top: 25px;
     letter-spacing: .2px;
+    line-height: 1.2;
+    letter-spacing: .3px;
 }
 
 .hero_links {
     display: flex;
     gap: 30px;
     margin-top: 60px;
+
+    @media screen and (max-width: 450px) {
+        gap: 15px;
+    }
 }
 
 @media screen and (max-width: 750px) {

@@ -9,7 +9,7 @@ function Hero() {
                 <header className="hero_text">
                     <h1 className="hero_title">Intégrateur Web</h1>
                     <h2 className="hero_name">Maxence Lesage</h2>
-                    <p className="hero_catch">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aliquid hic laborum sint, doloremque sapiente doloribus inventore aspernatur!</p>
+                    <p className="hero_catch">Passionné par la programmation, je concevrai votre site avec un souci méticuleux du détail. Je porterai toute mon attention aux performances et à la fluidité utilisateur pour faire ressortir votre projet à son plein potentiel.</p>
                 </header>
                 <div className="hero_links">
                     <Button key="btn-contact" value="Contact" type="btn_primary" />
