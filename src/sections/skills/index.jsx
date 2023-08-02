@@ -38,16 +38,16 @@ function Skills() {
             <div className="skills_left">
                 <div className="chart_list_border" />
                 <div className="chart_list">
-                    <ChartBar key="HTML" name="HTML" value="77" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="CSS" name="CSS" value="62" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Javascript" name="Javascript" value="44" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Sass" name="Sass" value="15" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="React" name="React" value="38" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Redux" name="Redux" value="24" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="SEO" name="SEO" value="55" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Jest" name="Jest" value="23" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Next" name="Next" value="0" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Typescript" name="Typescript" value="10" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="HTML" name="HTML" value="88" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="CSS" name="CSS" value="75" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Javascript" name="Javascript" value="60" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Sass" name="Sass" value="35" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="React" name="React" value="80" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Redux" name="Redux" value="50" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="SEO" name="SEO" value="40" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Jest" name="Jest" value="40" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Next" name="Next" value="60" width={getWidth} multiplier={multiplier} />
+                    <ChartBar key="Typescript" name="Typescript" value="55" width={getWidth} multiplier={multiplier} />
                 </div>
             </div>
         </section>
