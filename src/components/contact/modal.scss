@@ -12,6 +12,10 @@
     display: none;
     animation: modal_open_animation 0.3s linear;
 
+    & svg {
+        color: rgba(0, 0, 0, 0.8);
+    }
+
     @media (max-width: 800px) {
         width: 100%;
     }
@@ -36,7 +40,9 @@
 }
 
 .contact_modal_open {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contact_modal_close {
@@ -65,26 +71,32 @@
     display: none;
 }
 
+
+.contact_modal_heading {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
 .contact_modal_title {
-    position: absolute;
-    top: 20px;
-    left: 50%;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: .5px;
-    height: 40px;
     color: rgba(0, 0, 0, 0.9);
+    margin-left: 50%;
     transform: translateX(-50%);
+    height: 40px;
 
     @media (max-width: 400px) {
-        left: 45%;
         font-size: 30px;
+        height: 34px;
+        margin-left: calc(50% - 20px);
     }
 }
 
 .contact_modal_close_icon {
     position: absolute;
-    top: 20px;
     right: 25px;
     height: 40px;
     color: rgba(0, 0, 0, 0.8);
@@ -93,4 +105,77 @@
     @media (max-width: 400px) {
         height: 34px;
     }
+}
+
+
+.contact_modal_content {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    max-height: calc(100% - 80px);
+    padding: 0px 15px;
+    margin-top: -40px;
+}
+
+.modal_content_heading {
+    font-size: 22px;
+    margin-bottom: 30px;
+    max-width: 650px;
+}
+
+.modal_content_separator {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 500px;
+
+    &:before {
+        content: "";
+        flex: 1 1;
+        border-bottom: 2px solid black;
+        margin: auto;
+        margin-right: 10px
+    }
+
+    &:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 2px solid black;
+        margin: auto;
+        margin-left: 10px
+    }
+
+}
+
+.modal_content_mail {
+    font-size: 20px;
+    padding-left: 15px;
+    color: rgb(103, 49, 49);
+
+    &:hover {
+        text-decoration: underline;
+        color: rgb(158, 72, 72);
+    }
+
+    & svg {
+        margin-right: 10px;
+        font-size: 28px;
+        vertical-align: sub;
+    }
+
+    @media (max-width: 400px) {
+        padding-left: 0px;
+
+        & svg {
+            display: none;
+        }
+    }
+}
+
+.contact_modal_bottom {
+    height: 1px;
 }
