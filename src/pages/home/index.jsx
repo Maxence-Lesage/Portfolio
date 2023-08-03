@@ -4,6 +4,7 @@ import Hero from "../../sections/hero/index";
 import Projects from "../../sections/projects";
 import Skills from "../../sections/skills";
 import Modal from "../../components/contact/modal";
+import Footer from "../../sections/footer";
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Projects />
             <Skills />
             <Modal />
+            <Footer />
         </>
     );
 }

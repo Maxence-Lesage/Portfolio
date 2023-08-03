@@ -1,0 +1,12 @@
+.footer {
+    font-size: 16px;
+    font-weight: 500;
+
+    & a {
+        color: #c1575e;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
