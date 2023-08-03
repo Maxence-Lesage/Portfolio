@@ -1,5 +1,5 @@
 import "./index.scss";
-import image from "../../images/photo.png";
+import image from "../../images/photo.jpg";
 
 function HeroImage() {
     return (
