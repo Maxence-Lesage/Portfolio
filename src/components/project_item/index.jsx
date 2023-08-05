@@ -1,8 +1,7 @@
-import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 import TechnoIconList from "../techno_icon_list/index";
 import "./index.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRef } from "react";
+import github_logo from "../../images/github.jpg";
 
 function ProjectItem(props) {
 
@@ -32,17 +31,24 @@ function ProjectItem(props) {
                     <div className="pi_flex">
                         <TechnoIconList tags={tags} />
                         <button className="flip_button" onClick={flipCard}>
-                            <FontAwesomeIcon icon={faRotateLeft} />
+                            <p>FLIP !</p>
                         </button>
                     </div>
                 </div>
             </div>
             <div className="card_back">
                 <div className="card_back_wrapper">
+                    <h3 className="pi_name">{name}</h3>
+                    <div className="pi_name_separator" />
                     <p className="pi_desc_full">{desc}</p>
-                    <button className="flip_button" onClick={flipCard}>
-                        <FontAwesomeIcon icon={faRotateLeft} />
-                    </button>
+                    <div className="pi_flex">
+                        <a href={link} target="_blank" rel="noopener noreferrer">
+                            <img className="github_logo" src={github_logo} alt="Logo de Github" />
+                        </a>
+                        <button className="flip_button" onClick={flipCard}>
+                            <p>FLIP !</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </article>

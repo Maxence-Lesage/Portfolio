@@ -1,7 +1,8 @@
 import "./index.scss";
-import NavCircle from "../navcircle/index";
 import Button from "../../components/button/index";
 import { useRef } from "react";
+import logo from "../../images/logo_navbar.svg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -17,11 +18,9 @@ function Navbar() {
         <nav id="navbar">
 
             <div className="navbar__wrapper_left">
-                <NavCircle />
-                <a className="navbar_title heading" href="#navbar">
-                    <p>Maxence</p>
-                    <p>Lesage</p>
-                </a>
+                <Link to="/">
+                    <img src={logo} alt="Logo de SleekSite.store" />
+                </Link>
             </div>
 
             <div className="navbar__wrapper_right" ref={refLinks}>
