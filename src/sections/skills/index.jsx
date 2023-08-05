@@ -3,6 +3,7 @@ import oc_logo from "../../images/oc_logo.jpg"
 import { Link } from "react-router-dom";
 import ChartBar from "../../components/chart_bar";
 import { useState } from "react";
+import json from "../../technologies.json";
 
 function Skills() {
 
@@ -23,6 +24,14 @@ function Skills() {
     window.addEventListener("resize", updateSize);
     const multiplier = getWidth / 100;
 
+    const technologies = json.technologies;
+
+    const chartList = technologies.map((technology) => {
+        return (
+            <ChartBar key={technology.name} name={technology.name} value={technology.progress} width={getWidth} multiplier={multiplier} />
+        );
+    });
+
     return (
         <section id="skills">
             <h2 className="section_header">Compétences</h2>
@@ -38,16 +47,7 @@ function Skills() {
             <div className="skills_left">
                 <div className="chart_list_border" />
                 <div className="chart_list">
-                    <ChartBar key="HTML" name="HTML" value="88" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="CSS" name="CSS" value="75" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Javascript" name="Javascript" value="60" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Sass" name="Sass" value="35" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="React" name="React" value="80" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Redux" name="Redux" value="50" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="SEO" name="SEO" value="40" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Jest" name="Jest" value="40" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Next" name="Next" value="60" width={getWidth} multiplier={multiplier} />
-                    <ChartBar key="Typescript" name="Typescript" value="55" width={getWidth} multiplier={multiplier} />
+                    {chartList}
                 </div>
             </div>
         </section>

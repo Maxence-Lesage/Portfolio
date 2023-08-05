@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "Kasa",
-            "desc": "Utilisation de composants React réutilisable, usage des paramètres d'URL, dropdowns customs.",
+            "desc": "Utilisation de composants React réutilisables, gestion des paramètres d'URL et création de dropdowns personnalisés pour une expérience utilisateur optimale.",
             "tag": [
                 "React",
                 "CSS",
@@ -15,7 +15,7 @@
         {
             "id": "2",
             "name": "Argent Bank",
-            "desc": "Affichage des données du back-end via des calls API, utilisation de Redux pour la gestion des données.",
+            "desc": "Affichage efficace des données du back-end grâce aux appels API, mise en place d'une gestion de données centralisée à l'aide de Redux.",
             "tag": [
                 "React",
                 "Javascript",
@@ -28,7 +28,7 @@
         {
             "id": "3",
             "name": "724events",
-            "desc": "Couverture du code par des tests unitaires, utilisation de Jest pour les tests, création du cahier des charges",
+            "desc": "Assurance de la qualité du code par des tests unitaires approfondis à l'aide de Jest, ainsi que de la rédaction du cahier des charges du parcours utilisateur.",
             "tag": [
                 "React",
                 "CSS",
@@ -41,7 +41,7 @@
         {
             "id": "4",
             "name": "Faked Amazon",
-            "desc": "Reproduction de la page d'accueil d'Amazon, utilisation des styled-components d'Emotion, site créé avec Next.js.",
+            "desc": "Recréation de la page d'accueil d'Amazon en utilisant les styled-components d'Emotion, et construction du site avec Next.js.",
             "tag": [
                 "Next",
                 "Typescript",

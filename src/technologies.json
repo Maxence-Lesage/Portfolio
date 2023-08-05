@@ -1,0 +1,54 @@
+{
+    "technologies": [
+        {
+            "id": "1",
+            "name": "HTML",
+            "progress": "88"
+        },
+        {
+            "id": "2",
+            "name": "CSS",
+            "progress": "76"
+        },
+        {
+            "id": "3",
+            "name": "Javascript",
+            "progress": "63"
+        },
+        {
+            "id": "4",
+            "name": "Sass",
+            "progress": "38"
+        },
+        {
+            "id": "5",
+            "name": "React",
+            "progress": "80"
+        },
+        {
+            "id": "6",
+            "name": "Redux",
+            "progress": "60"
+        },
+        {
+            "id": "7",
+            "name": "SEO",
+            "progress": "45"
+        },
+        {
+            "id": "8",
+            "name": "Jest",
+            "progress": "40"
+        },
+        {
+            "id": "9",
+            "name": "Next",
+            "progress": "60"
+        },
+        {
+            "id": "10",
+            "name": "Typescript",
+            "progress": "55"
+        }
+    ]
+}
