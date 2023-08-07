@@ -26,10 +26,10 @@ function Modal() {
                     <FontAwesomeIcon icon={faXmark} className="contact_modal_close_icon" onClick={handleOnClick} />
                 </div>
                 <div className="contact_modal_content">
-                    <h3 className="modal_content_heading">1. Passez commande directement depuis mon profil Fiverr <FontAwesomeIcon icon={faArrowRightLong} /></h3>
+                    <h3 className="modal_content_heading">1. Place an order directly from my Fiverr profile <FontAwesomeIcon icon={faArrowRightLong} /></h3>
                     <FiverrCard />
-                    <div className="modal_content_separator">OU</div>
-                    <h3 className="modal_content_heading">2. Contactez moi directement par e-mail <FontAwesomeIcon icon={faArrowRightLong} /></h3>
+                    <div className="modal_content_separator">OR</div>
+                    <h3 className="modal_content_heading">2. Contact me directly by e-mail <FontAwesomeIcon icon={faArrowRightLong} /></h3>
                     <div className="modal_content_mail">
                         <FontAwesomeIcon icon={faEnvelope} />
                         <a className="modal_content_mail" href="mailto:contact@sleeksite.store">contact@sleeksite.store</a>
