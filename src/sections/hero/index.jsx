@@ -7,13 +7,16 @@ function Hero() {
         <section className="hero_section">
             <div className="hero__left">
                 <header className="hero_text">
-                    <h1 className="hero_title">Intégrateur Web</h1>
+                    <h1 className="hero_title">Web Developer</h1>
                     <h2 className="hero_name">Maxence Lesage</h2>
-                    <p className="hero_catch">Passionné par la programmation, je concevrai votre site avec un souci méticuleux du détail. Je porterai toute mon attention aux performances et à la fluidité utilisateur pour faire ressortir votre projet à son plein potentiel.</p>
+                    <p className="hero_catch">
+                        Passionate about programming, I will design your website with meticulous attention to detail.
+                        I will devote all my focus to performance and user fluidity to bring out the full potential of your project.
+                    </p>
                 </header>
                 <div className="hero_links">
                     <Button key="btn-contact" value="Contact" type="btn_primary" />
-                    <a href="#projects"><Button key="btn-projects" value="Mes Projets" type="btn_secondary" /></a>
+                    <a href="#projects"><Button key="btn-projects" value="My Projects" type="btn_secondary" /></a>
                 </div>
                 <div className="hero_pattern">
 

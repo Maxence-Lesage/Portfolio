@@ -34,14 +34,14 @@ function Skills() {
 
     return (
         <section id="skills">
-            <h2 className="section_header">Compétences</h2>
+            <h2 className="section_header">Skills</h2>
             <div className="certificate">
                 <Link to={"https://openclassrooms.com/fr/paths/594-integrateur-web"}>
-                    <img className="oc_logo" src={oc_logo} alt="Logo d'Openclassrooms" />
+                    <img className="oc_logo" src={oc_logo} alt="Logo of Openclassrooms" />
                 </Link>
                 <div className="certificate_text">
-                    <p>Diplomé le __/__/2023</p>
-                    <p>Parcours Intégrateur Web</p>
+                    <p>Graduated on __/__/2023</p>
+                    <p>Web Integrator's course</p>
                 </div>
             </div>
             <div className="skills_left">

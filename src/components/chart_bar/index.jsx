@@ -13,6 +13,7 @@ function ChartBar(props) {
             <svg id="chart_bar_svg" xmlns="http://www.w3.org/2000/svg">
                 <rect className="chart_empty" width={props.width} height="19" />
                 <rect className="chart_filled" width={fill} height="15" y="2" />
+                <ellipse className="chart_reflect" cx="20" cy="0" rx={fill} ry="8" />
             </svg>
             <p className="percentage">{`${props.value}%`}</p>
         </div>

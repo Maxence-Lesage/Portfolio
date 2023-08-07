@@ -14,7 +14,7 @@ function Projects() {
             <div className="projects_list">
                 {projects_list}
             </div>
-            <h2 className="section_header">Projets</h2>
+            <h2 className="section_header">Projects</h2>
         </section>
     );
 }

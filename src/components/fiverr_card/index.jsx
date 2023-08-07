@@ -5,7 +5,7 @@ function FiverrCard() {
     return (
         <div className="fiverr_card">
             <div className="fiverr_card_left">
-                <img src={logo} alt="Logo du site de Fiverr" />
+                <img src={logo} alt="Fiverr website logo" />
             </div>
             <div className="fiverr_card_right">
                 <div className="fiverr_card_right_top">

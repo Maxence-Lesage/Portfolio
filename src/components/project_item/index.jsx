@@ -23,7 +23,7 @@ function ProjectItem(props) {
         <article className="project_card" ref={cardRef}>
             <div className="card_front">
                 <a href={link}>
-                    <img className="pi_image" src={image} alt={"Illustration du site : " + name} />
+                    <img className="pi_image" src={image} alt={name + " website illustration"} />
                 </a>
                 <div className="pi_bottom">
                     <h3 className="pi_name">{name}</h3>
@@ -43,7 +43,7 @@ function ProjectItem(props) {
                     <p className="pi_desc_full">{desc}</p>
                     <div className="pi_flex">
                         <a href={link} target="_blank" rel="noopener noreferrer">
-                            <img className="github_logo" src={github_logo} alt="Logo de Github" />
+                            <img className="github_logo" src={github_logo} alt="Logo of Github" />
                         </a>
                         <button className="flip_button" onClick={flipCard}>
                             <p>FLIP !</p>

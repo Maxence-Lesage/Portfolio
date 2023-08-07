@@ -19,18 +19,18 @@ function Navbar() {
 
             <div className="navbar__wrapper_left">
                 <Link to="/">
-                    <img src={logo} alt="Logo de SleekSite.store" />
+                    <img src={logo} alt="Logo of SleekSite.store" />
                 </Link>
             </div>
 
             <div className="navbar__wrapper_right" ref={refLinks}>
                 <div className="navbar_links">
                     <a className="heading" href="#projects">
-                        <p>Projets</p>
+                        <p>Projects</p>
                     </a>
                     <div className="separator" />
                     <a className="heading" href="#skills">
-                        <p>Compétences</p>
+                        <p>Skills</p>
                     </a>
                     <div className="separator" />
                     <Button value="Contact" type="btn_secondary" stretch="btn_stretch" />
