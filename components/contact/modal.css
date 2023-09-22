@@ -1,0 +1,21 @@
+.contact_modal_open {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_modal_close {
+    animation: modal_close_animation 0.3s ease-in-out forwards !important;
+}
+
+@keyframes modal_close_animation {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(.4);
+        opacity: 0;
+    }
+}

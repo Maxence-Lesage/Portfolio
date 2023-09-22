@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Kasa",
+            "desc": "Utilisation de composants React réutilisables, gestion des paramètres d'URL et création de menus déroulants personnalisés pour une expérience utilisateur optimale.",
+            "tag": [
+                "React",
+                "CSS",
+                "Javascript"
+            ],
+            "image": "kasa.jpg",
+            "link": "https://github.com/Maxence-Lesage/OC-Projet-8.git"
+        },
+        {
+            "id": "2",
+            "name": "Argent Bank",
+            "desc": "Affichage efficace des données backend via des appels API, mise en œuvre d'une gestion centralisée des données à l'aide de Redux.",
+            "tag": [
+                "React",
+                "Javascript",
+                "Redux",
+                "Sass"
+            ],
+            "image": "argentbank.jpg",
+            "link": "https://github.com/Maxence-Lesage/ArgentBank-website.git"
+        },
+        {
+            "id": "3",
+            "name": "724events",
+            "desc": "Assurer la qualité du code grâce à des tests unitaires complets à l'aide de Jest, ainsi qu'à la rédaction des spécifications pour l'expérience de flux de l'utilisateur.",
+            "tag": [
+                "React",
+                "CSS",
+                "Jest",
+                "Javascript"
+            ],
+            "image": "724events.jpg",
+            "link": "https://github.com/Maxence-Lesage/OC-Projet-10-DEBUG.git"
+        },
+        {
+            "id": "4",
+            "name": "Faked Amazon",
+            "desc": "Recréation de la page d'accueil d'Amazon en utilisant les styled-components d'Emotion et construction du site avec Next.js.",
+            "tag": [
+                "Next",
+                "Typescript",
+                "CSS"
+            ],
+            "image": "amazon.jpg",
+            "link": "https://github.com/Maxence-Lesage/faked-amazon.git"
+        }
+    ]
+}
